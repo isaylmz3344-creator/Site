@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>c00lkidd gui v23.0 - Resmi Web Sitesi</title>
+                <style>
+                        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+                                body { background-color: #0d0d0d; color: #fff; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+                                        .container { background-color: #121212; width: 90%; max-width: 550px; padding: 25px; border-radius: 12px; text-align: center; border: 3px solid transparent; animation: rgbB 6s linear infinite; }
+                                                @keyframes rgbB {
+                                                            0%, 100% { border-color: #f00; box-shadow: 0 0 15px rgba(255,0,0,.4); }
+                                                                        33% { border-color: #0f0; box-shadow: 0 0 15px rgba(0,255,0,.4); }
+                                                                                    66% { border-color: #00f; box-shadow: 0 0 15px rgba(0,0,255,.4); }
+                                                                                            }
+                                                                                                    h1 { font-size: 2rem; margin-bottom: 5px; animation: rgbT 4s linear infinite; font-weight: 800; }
+                                                                                                            @keyframes rgbT { 0%, 100% { color: #f00; } 50% { color: #0f0; } }
+                                                                                                                    .yapimci { color: #ffcc00; font-weight: bold; margin-bottom: 15px; }
+                                                                                                                            p { color: #aaa; margin-bottom: 20px; font-size: .95rem; }
+                                                                                                                                    .script-box { background-color: #050505; border: 1px solid #333; padding: 15px; border-radius: 8px; font-family: monospace; color: #00ff00; text-align: left; word-break: break-all; margin-bottom: 20px; }
+                                                                                                                                            .btn { display: block; width: 100%; padding: 12px; font-size: 1rem; font-weight: bold; border: none; border-radius: 6px; cursor: pointer; transition: .2s; margin-bottom: 10px; text-decoration: none; text-transform: uppercase; }
+                                                                                                                                                    .btn-copy { background-color: #ff0000; color: #fff; }
+                                                                                                                                                            .btn-copy:hover { background-color: #cc0000; transform: scale(1.02); }
+                                                                                                                                                                    .btn-discord { background-color: #5865F2; color: #fff; }
+                                                                                                                                                                            .btn-discord:hover { background-color: #4752C4; transform: scale(1.02); }
+                                                                                                                                                                                </style>
+                                                                                                                                                                                </head>
+                                                                                                                                                                                <body>
+                                                                                                                                                                                    <div class="container">
+                                                                                                                                                                                            <h1>c00lkidd gui v23.0</h1>
+                                                                                                                                                                                                    <div class="yapimci">Yapımcı: İsa 👑</div>
+                                                                                                                                                                                                            <p>Delta ve tüm mobil/PC exploitler için 1000 hız el sürüklemeli slider içeren güncel sürüm!</p>
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                            <div class="script-box" id="sc">loadstring(game:HttpGet("https://raw.githubusercontent.com/isaylmz3344-creator/-_-/main/script.lua"))()</div>
+
+                                                                                                                                                                                                                                    <button class="btn btn-copy" onclick="copyS()">📋 Kodu Kopyala</button>
+                                                                                                                                                                                                                                            <a href="https://discord.gg/v7MzCMJfj" target="_blank" class="btn btn-discord">💬 Discord Grubumuza Katıl</a>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                    <script>
+                                                                                                                                                                                                                                                            function copyS() {
+                                                                                                                                                                                                                                                                        navigator.clipboard.writeText(document.getElementById("sc").innerText.trim());
+                                                                                                                                                                                                                                                                                    alert("Script kopyalandı knk! Delta'ya yapıştırabilirsin.");
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                </script>
+                                                                                                                                                                                                                                                                                                </body>
+                                                                                                                                                                                                                                                                                                </html>
+                                                                                                                                                                                                                                                                                                
